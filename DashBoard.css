@@ -1,0 +1,95 @@
+.outerContainer {
+  height: 100vh;
+}
+.header-dash {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #95a5a6;
+}
+.header-dash-name {
+  padding: 10px;
+  margin-left: 15px;
+}
+.account {
+  padding: 10px;
+  margin-right: 80px;
+}
+.Menubar {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background: #7f8c8d;
+  padding: 50px 30px;
+  color: #fff;
+}
+.Menubar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+.Menubar ul li {
+  margin-top: 10px;
+}
+.Menubar ul li button {
+  border: none;
+  background: none;
+  color: #fff;
+  outline: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+.main-dashboard {
+  width: 100%;
+  height: 400px;
+  background: #01a3a4;
+  z-index: 10;
+
+  /* text-align: center; */
+}
+.front-page {
+  padding-top: 50px;
+  width: 100%;
+  z-index: 9;
+  text-align: center;
+  display: block;
+}
+.front-page button {
+  padding: 0;
+  text-align: center;
+  border: none;
+  color: #8395a7;
+  font-size: 17px;
+  font-weight: 600;
+  width: 200px;
+  height: 100px;
+  margin: 20px 50px;
+  outline: none;
+  background: #fff;
+  border-radius: 7px;
+}
+.activities-border {
+  border: 1px solid #000;
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 5px 10px #888888;
+}
+.activities-border p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.topicwise {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.Download {
+  padding: 30px 410px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+}
